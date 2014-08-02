@@ -1,0 +1,30 @@
+html, body {
+    height: 100%;
+    background: rgba(236, 236, 236, 0.87);
+}
+
+h2 {
+    color: #e52d27;
+}
+
+#wrap {
+    position: relative;
+    top: 40%;
+    transform: translateY(-40%);
+}
+
+.container {
+    background: rgb(231, 231, 231);
+    height: 200px;
+}
+.size-18 {
+    font-size: 18px;
+}
+
+.id {
+    color: rgb(80, 80, 80);
+}
+
+.github {
+    margin-top: 10px;
+}
