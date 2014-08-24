@@ -1,6 +1,5 @@
 function googleApiClientReady() {
-    
-    var apiKey = 'AIzaSyC7TEDKyP3dt3-TfyT4DtAu_835R6_Pdd8',
+    var apiKey = 'AIzaSyC7sa5DR9vLDKhnmPmxHZ-lJ60O5M8yeRA',
         isLoad = false,
         username = "",
         oldUsername = "",

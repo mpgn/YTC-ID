@@ -36,17 +36,19 @@ h2 {
 .thumbnail-channel {
     position: absolute;
     top: -30px;
-    left: 0;
+    left: -15px;
 
     height: 50px;
     width: 50px;
-
+    
     opacity: 1;
 
-    -webkit-transition : 0.3s ease-in-out opacity;
-       -moz-transition : 0.3s ease-in-out opacity;
-         -o-transition : 0.3s ease-in-out opacity;
-            transition : 0.3s ease-in-out opacity;
+    -webkit-transition: 0.3s ease-in-out opacity;
+    -moz-transition: 0.3s ease-in-out opacity;
+    -o-transition: 0.3s ease-in-out opacity;
+    transition: 0.3s ease-in-out opacity;
+
+    z-index: 10;
 }
 
 .thumbnail-channel.empty {
