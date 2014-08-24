@@ -28,3 +28,27 @@ h2 {
 .github {
     margin-top: 10px;
 }
+
+#input-youtube {
+    position: relative;
+}
+
+.thumbnail-channel {
+    position: absolute;
+    top: -30px;
+    left: 0;
+
+    height: 50px;
+    width: 50px;
+
+    opacity: 1;
+
+    -webkit-transition : 0.3s ease-in-out opacity;
+       -moz-transition : 0.3s ease-in-out opacity;
+         -o-transition : 0.3s ease-in-out opacity;
+            transition : 0.3s ease-in-out opacity;
+}
+
+.thumbnail-channel.empty {
+    opacity: 0;
+}
