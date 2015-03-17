@@ -1,23 +1,19 @@
 {
   "name": "YouTubeID",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "authors": [
-    "martialdidit <martial.puygrenier@gmail.com>"
+    "mpgn <martial.puygrenier@gmail.com>"
   ],
   "keywords": [
     "YouTube",
     "ID",
-    "Channel"
+    "youtube channel id"
   ],
   "license": "MIT",
   "ignore": [
     "components"
   ],
   "dependencies": {
-    "angular-bootstrap": "~0.11.0",
-    "angular": "~1.2.21",
-    "angular-resource": "~1.2.19",
-    "angular-route": "~1.2.19",
     "bootstrap": "~3.2.0"
   }
 }
